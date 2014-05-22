@@ -1,0 +1,9 @@
+{
+    "elasticsearch": {
+        "host": "localhost",
+        "port": 9200
+    },
+
+    // Use "*" to index all categories, array of category names to index only those specific categories
+    "productCategories": "*"
+}

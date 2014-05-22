@@ -1,0 +1,31 @@
+{
+  "name": "vinmonopolet-indexer",
+  "version": "0.0.1",
+  "description": "Indexes the products on Vinmonopolet to an ElasticSearch setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rexxars/vinmonopolet-indexer.git"
+  },
+  "keywords": [
+    "vinmonopolet",
+    "elasticsearch",
+    "beer",
+    "wine"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/vinmonopolet-indexer/issues"
+  },
+  "homepage": "https://github.com/rexxars/vinmonopolet-indexer",
+  "dependencies": {
+    "async": "^0.9.0",
+    "elasticsearch": "^2.2.0",
+    "lodash": "^2.4.1",
+    "vinmonopolet": "0.0.1"
+  }
+}
