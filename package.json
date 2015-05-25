@@ -1,8 +1,8 @@
 {
   "name": "vinmonopolet-indexer",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Indexes the products on Vinmonopolet to an ElasticSearch setup",
-  "main": "index.js",
+  "main": "src/indexer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,9 +23,20 @@
   },
   "homepage": "https://github.com/rexxars/vinmonopolet-indexer",
   "dependencies": {
-    "async": "^0.9.0",
-    "elasticsearch": "^2.2.0",
-    "lodash": "^2.4.1",
-    "vinmonopolet": "0.0.1"
+    "bing.search": "^1.0.1",
+    "cheerio": "^0.19.0",
+    "debug": "^2.2.0",
+    "elasticsearch": "^4.1.0",
+    "google": "^1.2.0",
+    "got": "^3.2.0",
+    "imboclient": "^2.3.4",
+    "lodash.assign": "^3.2.0",
+    "lodash.pluck": "^3.1.2",
+    "slug": "^0.9.1",
+    "vinmonopolet": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^0.21.2",
+    "eslint-config-vaffel": "^1.0.0"
   }
 }
